@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bimbel ABC</title>
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Swiper CSS (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <!--AOS-->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <div class="logo">
+          <img src="/foto/logobimbel.jpeg" alt="Logo Bimbel" />
+          <h1>Bimbel ABC</h1>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fa fa-bars"></i>
+        </div>
+        <nav class="nav-links" id="nav-links">
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#pb">Program Belajar</a>
+          <a href="#daftar">Daftar</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Content Section -->
+    <main id="beranda">
+      <section class="hero">
+        <div class="overlay">
+          <h1 id="typing-text"></h1>
+          <h2 data-aos="fade-up" data-aos-duration="2000">
+            Bimbingan Belajar Berkualitas?
+          </h2>
+          <h3 data-aos="fade-up" data-aos-duration="3000">
+            Bimbel ABC Solusi Yang Tepat!
+          </h3>
+          <a href="#tentang">Lihat Tentang Kami</a>
+        </div>
+      </section>
+
+      <!-- Tentang Kami -->
+      <section class="tentang" id="tentang">
+        <div class="container tentang-grid">
+          <img
+            src="/foto/logobimbel.jpeg"
+            alt="Tentang Bimbel"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          />
+          <div>
+            <h2 data-aos="fade-up" data-aos-duration="2000">Tentang Kami</h2>
+            <p data-aos="fade-up" data-aos-duration="3000">
+              Sekolah Bimbel ABC merupakan lembaga pendidikan non-formal yang
+              berada di bawah naungan Yayasan Taman Ar-Rasyid.Sekolah Bimbel ABC
+              hadir sebagai solusi pendamping belajar bagi anak-anak usia Taman
+              Kanak-Kanak dan Sekolah Dasar. Setiap anak memiliki potensi luar
+              biasa yang perlu diasah sejak dini. Oleh karena itu, kami .
+              menghadirkan suasana belajar yang menyenangkan, aman, dan
+              edukatif, dengan pendekatan yang sesuai dengan usia dan kebutuhan
+              anak.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Visi Misi -->
+      <section class="visimisi">
+        <div class="container visi-grid">
+          <div data-aos="fade-up" data-aos-duration="1000">
+            <h3>Visi</h3>
+            <p>
+              Menjadi bimbingan belajar terbaik bagi anak usia dini dan sekolah
+              dasar yang menyenangkan, membangun karakter, dan menumbuhkan
+              semangat belajar sejak dini.
+            </p>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="3000">
+            <h3>Misi</h3>
+            <ul>
+              <li>Menyediakan suasana belajar yang aman dan ceria</li>
+              <li>Mengembangkan potensi kognitif, sosial, dan emosional</li>
+              <li>Menanamkan nilai-nilai kebaikan dan disiplin</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--Animasi ANGKA -->
+      <section class="statistik" id="statistik">
+        <div class="container">
+          <div class="stat-box" data-aos="fade-up" ata-aos-delay="2000">
+            <h2><span class="counter" data-target="125">0</span>+</h2>
+            <p>Siswa Pertahun</p>
+          </div>
+          <div class="stat-box" data-aos="fade-up" data-aos-delay="1000">
+            <h2><span class="counter" data-target="100">0</span>+</h2>
+            <p>Prestasi Kejuaraan</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Program Belajar -->
+      <section class="program" id="pb">
+        <h2
+          class="title"
+          class="program-card"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Program Belajar
+        </h2>
+
+        <div class="slider-wrapper">
+          <button class="nav-btn" id="prevBtn">&#10094;</button>
+
+          <div class="program-grid" id="programSlider">
+            <div
+              class="program-card"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <img src="/foto/mtk.jpg" alt="Matematika" />
+              <h4>MATEMATIKA</h4>
+            </div>
+            <div
+              class="program-card"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <img src="/foto/Inggris.jpg" alt="Bahasa Inggris" />
+              <h4>BAHASA INGGRIS</h4>
+            </div>
+            <div
+              class="program-card"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <img src="/foto/indonesia.jpg" alt="Bahasa Indonesia" />
+              <h4>BAHASA INDONESIA</h4>
+            </div>
+          </div>
+
+          <button class="nav-btn" id="nextBtn">&#10095;</button>
+        </div>
+      </section>
+
+      <!-- Daftar -->
+      <section class="daftar" id="daftar">
+        <div class="container daftar-grid">
+          <img
+            src="/foto/foto22.jpg"
+            alt="Daftar"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          />
+          <div data-aos="fade-up" data-aos-duration="3000">
+            <h2>Segera Daftarkan Diri Anda!</h2>
+            <p>Mari Belajar bersama Bimbel ABC</p>
+            <a href="https://forms.gle/uHsBw1hUhPCfYvCQ7" target="_blank"
+              >Link Pendaftaran</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="kontak">
+      <div class="container footer-grid">
+        <div>
+          <h3>Sosial Media</h3>
+          <p>Kontak media sosial kami:</p>
+          <div class="sosmed">
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h3>Menu</h3>
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang</a>
+          <a href="#pb">Program</a>
+          <a href="#daftar">Daftar</a>
+        </div>
+        <div>
+          <h3>Kontak</h3>
+          <p><i class="fa fa-envelope"></i> bimbelabc1@gmail.com</p>
+          <p><i class="fa fa-phone"></i> 0888-0988-0930</p>
+          <p><i class="fa fa-map-marker"></i> Jl. Pasar Pak Tani, Bogor</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Bimbel ABC</p>
+      </div>
+    </footer>
+
+    <!--scroll up-->
+    <a href="#beranda" class="scroll-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <!--scroll up-->
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!--AOS-->
+    <!---JAVA S-->
+    <script src="scrip.js"></script>
+    <script src="slinder.js"></script>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+
+      const text = "Selamat Datang di Bimbel ABC!";
+      const typing = document.getElementById("typing-text");
+      let idx = 0;
+      function ketik() {
+        if (idx < text.length) {
+          typing.innerHTML += text.charAt(idx);
+          idx++;
+          setTimeout(ketik, 80);
+        }
+      }
+      ketik();
+    </script>
+  </body>
+</html>
